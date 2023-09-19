@@ -1,0 +1,6 @@
+.navbar-brand{
+    transition: 0.25s;
+}
+.navbar-brand:hover{
+    color: gold;
+}
