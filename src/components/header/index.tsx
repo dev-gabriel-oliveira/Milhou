@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Header() {
@@ -8,7 +7,7 @@ export default function Header() {
                 <a className="navbar-brand" href="/">
                     <img src='/icon.png' alt="" width={'35rem'} />
                 </a>
-                <Link to="/about">Sobre</Link>
+                <a href="/about">Sobre</a>
             </div>
         </nav>
     )

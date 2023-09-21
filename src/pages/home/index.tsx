@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Home() {
@@ -12,9 +11,9 @@ export default function Home() {
             <br />
 
             <h3>Vamos Calcular</h3>
-            <Link to="/calculator" title='Ir para Calculadora'>
+            <a href="/calculator" title='Ir para Calculadora'>
                 <button>Clique Aqui</button>
-            </Link>
+            </a>
         </div>
     )
 }
