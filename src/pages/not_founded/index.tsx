@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function NotFounded() {
@@ -5,9 +6,9 @@ export default function NotFounded() {
         <div className="not-founded alert alert-warning" role="alert">
             <h1>404</h1>
             <p>Página não encontrada!</p>
-            <a href='/'>
+            <Link to='/'>
                 <strong>Ir para Home</strong>
-            </a>
+            </Link>
         </div>
     )
 }
