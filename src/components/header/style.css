@@ -1,0 +1,13 @@
+.navbar a{
+    color: white;
+    transition: 0.25s;
+}
+.navbar a:hover{
+    color: yellowgreen;
+}
+.navbar-brand img{
+    transition: 0.25s;
+}
+.navbar-brand img:hover{
+    filter: hue-rotate(-35deg) saturate(200%);
+}

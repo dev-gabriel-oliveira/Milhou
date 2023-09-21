@@ -1,0 +1,16 @@
+.calculator form, .calculator .results{
+    max-width: 50%;
+    margin: auto;
+}
+
+.calculator form label{
+    display: flex;
+}
+
+.calculator form .input-group{
+    margin: 0% 0%;
+}
+
+.calculator .calculate-btn, .calculator .results{
+    margin-bottom: 1rem;
+}

@@ -1,8 +1,9 @@
 footer{
-    background-color: silver;
+    background-color: black;
     padding: 4%;
 }
 
 footer p{
+    color: dimgray;
     text-align: center;
 }
