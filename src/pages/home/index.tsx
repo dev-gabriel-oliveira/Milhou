@@ -1,3 +1,5 @@
+import 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Home() {
@@ -11,9 +13,9 @@ export default function Home() {
             <br />
 
             <h3>Vamos Calcular</h3>
-            <a href="/calculator" title='Ir para Calculadora'>
+            <Link to="/calculator" title='Ir para Calculadora'>
                 <button>Clique Aqui</button>
-            </a>
+            </Link>
         </div>
     )
 }

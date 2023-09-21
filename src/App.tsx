@@ -9,15 +9,15 @@ import Footer from './components/footer';
 export default function App() {
   return (
     <>
+    <BrowserRouter>
       <Header/>
-
-      <BrowserRouter>
-        <div id="main">
-          <AppRoutes />
-        </div>
-      </BrowserRouter>
-
+      
+      <div id="main">
+        <AppRoutes />
+      </div>
       <Footer />
+
+    </BrowserRouter>
     </>
   )
 }
