@@ -123,19 +123,19 @@ export default function Calculator() {
                 <hr />
             </form>
 
-            {showResults === true ? (
+            {showResults && (
                 <>
                 <div className={colorResults}>
-                    {textResults} Cada milheiro sairá por R${precoMilheiroFinal}
+                    {textResults} Cada milheiro sairá por R${precoMilheiroFinal.toFixed(2)}
                 </div>
 
                 <div className={colorResults}>
-                    O bônus de {bonus}% lhe garante {totalMilhasFinal} milhas, que custariam R${totalValorSemVantagens}.
+                    O bônus de {bonus}% lhe garante {totalMilhasFinal} milhas, que custariam R${totalValorSemVantagens.toFixed(2)}.
                     <br />
-                    Porém, com seu desconto de {desconto}% o valor fica por apenas R${totalValorFinal}.
+                    Porém, com seu desconto de {desconto}% o valor fica por apenas R${totalValorFinal.toFixed(2)}.
                 </div>
                 </>
-            ) : ('')}
+            )}
 
             <button className='calculate-btn' onClick={calcular}>Calcular</button>
 
