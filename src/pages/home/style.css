@@ -1,6 +1,5 @@
 .home h1{
-    margin: 2%;
-    background: -webkit-linear-gradient(yellowgreen,green);
+    background: -webkit-linear-gradient(mediumseagreen, darkgreen);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

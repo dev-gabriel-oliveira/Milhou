@@ -3,7 +3,7 @@ import './style.css';
 
 export default function NotFounded() {
     return(
-        <div className="not-founded alert alert-warning" role="alert">
+        <div className="not-founded card-glass" role="alert">
             <h1>404</h1>
             <p>Página não encontrada!</p>
             <Link to='/'>

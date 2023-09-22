@@ -6,8 +6,9 @@
     color: yellowgreen;
 }
 .navbar-brand img{
+    filter: brightness(90%) saturate(130%);
     transition: 0.25s;
 }
 .navbar-brand img:hover{
-    filter: hue-rotate(-35deg) saturate(200%);
+    filter: brightness(80%) saturate(160%) contrast(160%);
 }

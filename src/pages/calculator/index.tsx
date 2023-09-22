@@ -62,7 +62,7 @@ export default function Calculator() {
     }
 
     return(
-        <div className='calculator'>
+        <div className='calculator card-glass'>
             <h2>Calculadora de Milhas</h2>
 
             <form>
